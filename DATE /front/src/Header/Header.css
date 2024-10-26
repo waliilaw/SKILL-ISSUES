@@ -1,0 +1,29 @@
+/* Header.css */
+
+.navbar {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space icons evenly */
+  align-items: center; /* Center icons vertically */
+  height: 40px; /* Set height for the header */
+ /* Tinder-like red background */
+  padding: 0 10px; /* Horizontal padding */
+  position: fixed; /* Keep the header fixed at the top */
+  top: 0; /* Align to the top of the page */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  z-index: 1000; /* Ensure the header is above other elements */
+}
+
+.icon {
+  color: white; /* Set icon color to white */
+  width: 30px; /* Set icon size */
+  height: 30px; /* Set icon size */
+  /* Smooth transition for hover effects */
+  position: relative; /* Position for the circle effect */
+  /* Change cursor to pointer on hover */
+  cursor: pointer; 
+}
+
+.chat-icon{
+cursor:default;
+}
